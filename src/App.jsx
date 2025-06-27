@@ -1,7 +1,6 @@
 import "./App.css";
 import img from "/image.png";
 import Card from "./components/Card";
-import { ToastContainer } from "react-toastify";
 import DonationModel from "./components/DonationModel";
 import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
@@ -297,7 +296,6 @@ function App() {
           ))}
         </div>
       </div>
-      <ToastContainer position="top-right" />
       {showDonation && (
         <DonationModel
           showDonation={showDonation}

@@ -3,8 +3,6 @@ const Instagram = "/Instagram.svg";
 const Linkedn = "/Linkedn.svg";
 const Twitter = "/Twitter.svg";
 const Youtube = "/Youtube.svg";
-import { use } from "react";
-import { toast } from "react-toastify";
 
 export default function Card({
   bgImg,
