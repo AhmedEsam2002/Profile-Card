@@ -19,7 +19,7 @@ export default function Card({
       <div
         className={
           " relative w-[408px] h-[625px] bg-[#FBF4FA] rounded-2xl flex flex-col items-center justify-start shadow-lg" +
-          (user.isPremium
+          (user?.isPremium
             ? " bg-gradient-to-r from-amber-500 to-yellow-400"
             : "")
         }
