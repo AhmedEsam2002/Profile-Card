@@ -28,7 +28,7 @@ A modern and responsive React application that displays profile cards with user 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AhmedEsam2002/Profile-Card.git
    cd Profile-Card
    ```
 
