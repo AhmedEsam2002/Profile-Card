@@ -9,6 +9,23 @@ function App() {
   const [selectedUser, setSelectedUser] = useState(null);
   const users = [
     {
+      name: "Walter White",
+      jobTitle: "Chemistry Specialist",
+      description:
+        "Former high school chemistry teacher with extensive knowledge in chemical processes and pharmaceutical development.",
+      personalImg:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfNjUepcJE63cHgBtiaamPY5bP9-EQ3l0S7w&s",
+      socialMedia: {
+        facebook: "https://facebook.com/walter.white",
+        instagram: "https://instagram.com/walter_chemistry",
+        linkedin: "https://linkedin.com/in/walter-white-chemistry",
+        twitter: "https://twitter.com/walter_chem",
+        youtube: "https://youtube.com/@WalterChemistry",
+      },
+      isPremium: true,
+    },
+    ,
+    {
       name: "Chisom Chukwukwe",
       jobTitle: "UI/UX Designer",
       description:

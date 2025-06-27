@@ -16,10 +16,25 @@ export default function Card({
   }
   return (
     <div>
-      <div className="w-[408px] h-[625px] bg-[#FBF4FA] rounded-2xl flex flex-col items-center justify-start shadow-lg">
+      <div
+        className={
+          " relative w-[408px] h-[625px] bg-[#FBF4FA] rounded-2xl flex flex-col items-center justify-start shadow-lg" +
+          (user.isPremium
+            ? " bg-gradient-to-r from-amber-500 to-yellow-400"
+            : "")
+        }
+      >
+        {/* Premium badge */}
+        {user.isPremium && (
+          <p className="absolute right-2 top-2 rounded-full bg-gradient-to-r from-amber-500 to-yellow-400 px-4 py-1 text-xs font-semibold text-white shadow-md shadow-amber-400/50 hover:scale-105 transition-transform">
+            ⭐ Premium
+          </p>
+        )}
+
+        {/*  */}
         <img src={bgImg} alt="" className="w-full h-[211px]" />
         {/* Card Content */}
-        <div className=" relative  flex flex-col items-center  w-full h-full   text-center gap-6">
+        <div className=" relative  flex flex-col items-center  w-full h</svg>-full   text-center gap-6">
           {/* Personal Image */}
           <img
             src={user.personalImg}
