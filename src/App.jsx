@@ -3,7 +3,6 @@ import img from "/image.png";
 import Card from "./components/Card";
 import DonationModel from "./components/DonationModel";
 import { useState } from "react";
-import "react-toastify/dist/ReactToastify.css";
 import { users } from "/usersData.js";
 function App() {
   const [showDonation, setShowDonation] = useState(false);
