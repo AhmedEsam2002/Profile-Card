@@ -1,4 +1,4 @@
-# Profile Card React App 🚀
+# Prof### 🎨 **Beautiful Profile Cards**le Card React App 🚀
 
 A modern and interactive React application showcasing professional profile cards with a beautiful donation system. Built with the latest React 19 and featuring a sophisticated design with premium user badges and "Buy me a coffee" functionality.
 
@@ -58,7 +58,7 @@ A modern and interactive React application showcasing professional profile cards
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AhmedEsam2002/Profile-Card.git
    cd Profile-Card
    ```
 
@@ -274,66 +274,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Built with ❤️ using React 19 and modern web technologies
 
-Contains the main application logic and user data array with sample profiles including:
-
-- UI/UX Designers
-- Software Engineers
-- Product Managers
-- Data Scientists
-- DevOps Engineers
-- Frontend/Backend Developers
-
-## 🔧 Available Scripts
-
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-
-## 🎯 Key Features Explained
-
-### Interactive Profile Cards
-
-Each profile card includes:
-
-- **Profile Image**: Circular profile picture with hover effects
-- **User Information**: Name, job title, and description
-- **Social Media Icons**: Clickable icons with hover animations
-- **Thank You Button**: Interactive button that shows toast notifications
-
-### Responsive Design
-
-The cards are designed to be fully responsive and work seamlessly across different screen sizes.
-
-### Toast Notifications
-
-When users interact with the cards, they receive friendly toast notifications thanking them for their support.
-
-## 🚀 Deployment
-
-To build the project for production:
-
-```bash
-pnpm build
-```
-
-The built files will be in the `dist` directory, ready for deployment to any static hosting service.
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
+## �‍💻 Author
 
 **Ahmed Esam**
+
+- GitHub: [@AhmedEsam2002](https://github.com/AhmedEsam2002)
+- Repository: [Profile-Card](https://github.com/AhmedEsam2002/Profile-Card)
 
 ## 🙏 Acknowledgments
 
